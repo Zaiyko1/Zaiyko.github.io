@@ -1,2 +1,3 @@
-My first project after a long break from html, im still a beginner so pls no ik it kinda bad :)
+https://zaiyko1.github.io/Zaiyko.github.io/
+
 (click Zaiyko in top left to change themes)
