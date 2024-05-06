@@ -70,7 +70,6 @@ body{
     text-decoration: none;
     transition: all 0.5s ease;
 }
-
 #about-button{
     height: 39px;
 }
@@ -86,19 +85,19 @@ body{
     color: rgb(86, 236, 179);
     transition: all 0.5s ease;
     font-size: 4.4vh;
-
 }
 .links-dropdown:hover .dropdown-content{
-    opacity: 1;   
+    opacity: 1; 
+    visibility:visible;
 }
 .dropdown-content{
     transition: all 0.5s ease;
 }
 .links-dropdown ul{
     opacity: 0;
+    visibility: hidden;
     justify-content: flex-end;
     margin-left: 40px;
-    
 }
 .dropdown-content li{
     list-style: none;
@@ -187,8 +186,6 @@ body{
     top: 96%;
     padding-left: 60px;
 }
-
-
 /* about me */
 .about-container{
     margin-left: 15vw;
@@ -213,7 +210,7 @@ body{
     padding-top: 5px;
     
 }
-.about-content b{
+.about-content h2{
     font-size: 2vw;
     font-weight: 450;
     padding-top: 5px;
@@ -257,6 +254,9 @@ body{
     }
     .about-content li{
         font-size: 1rem;
+    }
+    .about-content h2{
+        font-size: 1.2rem;
     }
     .dropdown-content a:hover{
         font-size: 2vh;
