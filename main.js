@@ -1,5 +1,6 @@
 var counter = 0;
 
+// allows for dropdown to somewhat work on mobile view
 function dropdownShow(element) {
     var dropdown = element.nextElementSibling;
     if (dropdown.style.opacity === "1") {
@@ -9,6 +10,7 @@ function dropdownShow(element) {
     }
 }
 
+// copies text to clipboard
 function copyText(htmlElement){
     if (!htmlElement) {
         return;
@@ -39,7 +41,10 @@ function () {
 }
 
 
-// cycles through onclick() and changes the theme colours. 
+// working on a dynamic solution that allows me to add new themes in the future
+// this is temporarily hardcoded
+
+// cycles through onclick and changes the theme colours. This is temporary I promise
 function changeMode() {
 
     if(counter == 0){
@@ -81,6 +86,5 @@ function changeMode() {
         counter = -1;
     }
     counter++;
-    // else {get_good_enough_to_fix_this_monstrosity();}
 }
-
+// working on dynamic solution
