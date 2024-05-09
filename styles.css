@@ -24,22 +24,37 @@ body{
 .botanical-theme{
     --primary-color: rgb(130, 148, 148);
     --secondary-color: rgb(74, 90, 86);
+    #botanical-dom{
+        display: inline;
+    }
 }
 .olivia-theme{
     --primary-color: rgb(57, 57, 57);
     --secondary-color: rgb(232, 174, 152);
+    #olivia-dom{
+        display: inline;
+    }
 }
 .bento-theme{
     --primary-color: rgb(45, 57, 77);
     --secondary-color: rgb(255, 122, 144);
+    #bento-dom{
+        display: inline;
+    }    
 }
 .mizu-theme{
     --primary-color: rgb(138, 197, 209);
     --secondary-color: rgb(48, 55, 71);
+    #mizu-dom{
+        display: inline;
+    }
 }
 .emilia-theme{
     --primary-color: rgb(216, 199, 237);
     --secondary-color: rgb(129, 108, 157);  
+    #emilia-dom{
+        display: inline;
+    }
 }
 
 .nav-container{
@@ -168,9 +183,9 @@ body{
     color: rgb(86, 236, 179);
     transition: all 0.5s ease;
 }
-#yt :hover{
+#twi :hover{
     font-size: 2.6vh;
-    color: #ff3434;
+    color: #1DA1F2;
     transition: all 0.5s ease;  
 }
 #disc :hover{
